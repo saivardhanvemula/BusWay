@@ -1,0 +1,35 @@
+.homepage {
+    background-color: red;
+    height: calc(100vh - 200px);
+    width: calc(100vw - 200px);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 100px;
+    /* margin: auto; */
+}
+.left {
+    background-color: blue;
+    display: flex;
+    padding: 110px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.mid {
+    background-color: black;
+}
+.right {
+    background-color: white;
+    display: flex;
+    padding: 110px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.button {
+    height: 50px;
+    width: 150px;
+    background-color: tomato;
+    border: 0;
+    border-radius: 5px; 
+}
